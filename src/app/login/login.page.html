@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-button slot="start">
+        <ion-button color="primary">
+           <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+      </ion-button>
+
+      <ion-button slot="end ">
+        <ion-button routerLink="/signup">Sign</ion-button>
+      </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+      <div id="header">
+           <h1>Login</h1>
+           <img src="assets/logo.png" />
+      </div>
+
+
+      <form id="form">
+           <app-input placeholder="Email"></app-input>
+           <app-input type="password" placeholder="Senha"></app-input>
+           <ion-button expand="block" fill="clear" shape="round">
+             Login
+           </ion-button>
+      </form>
+</ion-content>
